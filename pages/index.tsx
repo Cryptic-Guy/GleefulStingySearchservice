@@ -52,7 +52,7 @@ export default function Home() {
       {/* Ticker tape */}
       <div className="w-full overflow-hidden bg-black py-1 border-b-4 border-black">
         <div className="text-xs font-bold text-[#FFEF00] whitespace-nowrap inline-block animate-scroll px-4">
-          BASE_CHAINLORE &nbsp;///&nbsp; STORY LIVES FOREVER ON BASE &nbsp;///&nbsp; ANYONE CAN WRITE &nbsp;///&nbsp; 0 CENSORSHIP &nbsp;///&nbsp; 0 OWNERS &nbsp;///&nbsp; ∞ CHAOS &nbsp;///&nbsp; CONTRACT: {CONTRACT_ADDRESS} &nbsp;///&nbsp; NETWORK: BASE SEPOLIA &nbsp;///&nbsp;
+          BASE_CHAINLORE &nbsp;///&nbsp; STORY LIVES FOREVER ON BASE &nbsp;///&nbsp; ANYONE CAN WRITE &nbsp;///&nbsp; 0 CENSORSHIP &nbsp;///&nbsp; 0 OWNERS &nbsp;///&nbsp; ∞ CHAOS &nbsp;///&nbsp; CONTRACT: {CONTRACT_ADDRESS} &nbsp;///&nbsp; NETWORK: BASE &nbsp;///&nbsp;
         </div>
       </div>
 
@@ -90,12 +90,12 @@ export default function Home() {
               STORIES: {totalStories}
             </div>
             <div className="brut-tag">
-              CHAIN: BASE SEPOLIA
+              CHAIN: BASE
             </div>
             <div className="brut-tag">
               CONTRACT:{' '}
               <a
-                href={`https://sepolia.basescan.org/address/${CONTRACT_ADDRESS}`}
+                href={`https://basescan.org/address/${CONTRACT_ADDRESS}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-[#FF3B00]"
@@ -159,12 +159,12 @@ export default function Home() {
           <div>BUILT ON BASE. LIVES FOREVER.</div>
           <div>
             <a
-              href="https://sepolia.basescan.org/address/0x3aF69540d1f63d916B5A4bcb4aADf7880737EF94"
+              href="https://x.com/tyson_6154"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[#FF3B00] transition-colors"
             >
-              VIEW CONTRACT ON BASESCAN ↗
+              FOLLOW ON X ↗
             </a>
           </div>
         </footer>

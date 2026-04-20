@@ -83,7 +83,7 @@ export default function AddLine({ storyId, onSuccess }: AddLineProps) {
         <div className="mt-3 text-xs font-bold border-t-2 border-black pt-2">
           TX:{' '}
           <a
-            href={`https://sepolia.basescan.org/tx/${hash}`}
+            href={`https://basescan.org/tx/${hash}`}
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-[#0057FF]"
